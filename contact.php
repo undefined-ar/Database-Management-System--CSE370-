@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css/contact.css">
+    <title>Contact</title>
+</head>
+<body>
+    <div class="contact">
+    <nav class="navbar">
+            <h1>HMS</h1>
+            <p>Hotel Management System</p>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Booking</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+         </nav>
+        <div class="left">
+           
+            <h1>BOOK <span style="color: coral;">YOUR<br> HOTEL</span> TODAY</h1>
+        </div>
+        <div class="right">
+            <h1>CONTACT WITH US</h1>
+            <form action="submit.php" class="form_design" method="post">
+            <input class="name" type="name" placeholder="Name" name="name"><br>
+            <input class="email" type="email" placeholder="Email" name="email"><br>
+            <input class="number" type="number"placeholder="Phone" name="phonenum"><br>
+            <input class="message" type="text"placeholder="Message"name="message"><br>
+            <input class="submit" type="submit" placeholder="Submit">
+            </form>
+    
+        </div>
+    </div>
+    <div class="end">
+    <h3><b>Created By :</b> Group 4</h3>
+    <h3>&copy; 2021 All Right Reserved</h3>
+
+</div>
+</body>
+</html>
